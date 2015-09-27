@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule UniverseConfig.svc/([a-z]+)/([a-zA-Z]+)$ services/UniverseConfig.php?t=$1&a=$2
